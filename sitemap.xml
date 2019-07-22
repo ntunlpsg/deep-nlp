@@ -184,15 +184,19 @@
   </url>
   
   <url>
+    <loc>https://ntunlpsg.github.io/deep-nlp/authors/1.tasnim/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ntunlpsg.github.io/deep-nlp/authors/2.tung/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ntunlpsg.github.io/deep-nlp/authors/3.jwala/</loc>
+  </url>
+  
+  <url>
     <loc>https://ntunlpsg.github.io/deep-nlp/authors/joty/</loc>
-  </url>
-  
-  <url>
-    <loc>https://ntunlpsg.github.io/deep-nlp/authors/tasnim/</loc>
-  </url>
-  
-  <url>
-    <loc>https://ntunlpsg.github.io/deep-nlp/authors/thomas/</loc>
   </url>
   
   <url>
@@ -202,21 +206,6 @@
   
   <url>
     <loc>https://ntunlpsg.github.io/deep-nlp/courses/</loc>
-  </url>
-  
-  <url>
-    <loc>https://ntunlpsg.github.io/deep-nlp/authors/nguyen-thanh-tung/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ntunlpsg.github.io/deep-nlp/authors/shafiq-rayhan-joty/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ntunlpsg.github.io/deep-nlp/authors/tasnim-mohiuddin/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
