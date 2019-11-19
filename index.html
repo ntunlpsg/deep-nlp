@@ -497,7 +497,7 @@
       
     </div>
     <div class="col-12 col-lg-12">
-      <p>Natural language processing(NLP) is one of the most important fields in artificial intelligence(AI). It has become very crucial in the information age because most of the information is in the form of unstructured text. NLP technologies are applied everywhere as people communicate mostly in language: language translation, web search, customer support, emails, forums, advertisement, radiology reports, to name a few.</p>
+      <p>Natural language processing (NLP) is one of the most important fields in artificial intelligence(AI). It has become very crucial in the information age because most of the information is in the form of unstructured text. NLP technologies are applied everywhere as people communicate mostly in language: language translation, web search, customer support, emails, forums, advertisement, radiology reports, to name a few.</p>
 
 <p>There are a number of core NLP tasks and machine learning models behind NLP applications. Deep learning, a sub-field of machine learning, has recently brought a paradigm shift from traditional task-specific feature engineering to end-to-end systems and has obtained high performance across many different NLP tasks and downstream applications. Tech companies like Google, Baidu, Alibaba, Apple, Amazon, Facebook, Tencent, and Microsoft are now actively working on deep learning methods to improve their products. For example, Google recently replaced its traditional statistical machine translation and speech-recognition systems with systems based on deep learning methods.</p>
 
@@ -550,7 +550,7 @@
       
     </div>
     <div class="col-12 col-lg-12">
-      <p>In this course, students will learn state-of-the-art deep learning methods for NLP. Through lectures and practical assignments, students will learn the necessary tricks for making their models work on practical problems. They will learn to implement, and possibly to invent their own deep learning models using available deep learning libraries like TensorFlow.</p>
+      <p>In this course, students will learn state-of-the-art deep learning methods for NLP. Through lectures and practical assignments, students will learn the necessary tricks for making their models work on practical problems. They will learn to implement, and possibly to invent their own deep learning models using available deep learning libraries like <a href="https://pytorch.org/" target="_blank">Pytorch</a>.</p>
 
     </div>
   
@@ -604,21 +604,33 @@
       <p><strong>Weekly Workload</strong></p>
 
 <ul>
-<li>Every two-hour lecture will be accompanied by practice problems implemented in TensorFlow/PyTorch a popular Python framework for deep learning.</li>
-<li>There will be one one-hour office hour per week to discuss assignments and project.</li>
+<li>Every two-hour lecture will be accompanied by practice problems implemented in PyTorch.</li>
+<li>There will be a 30-min office hour per week to discuss assignments and project.</li>
+<li>There will be <code>5%</code> marks for class participation.</li>
 </ul>
 
 <p><strong>Assignments (individually graded)</strong></p>
 
 <ul>
-<li>There will be two (2) assignments contributing to 50% of the total assessment.</li>
+<li>There will be three (3) assignments contributing to <code>3 * 15% = 45%</code> of the total assessment.</li>
+<li>Late day policy
+
+<ul>
+<li>2 free late days; afterwards,<code>10%</code> off per day late</li>
+<li>Not accepted after 3 late days</li>
+</ul></li>
 <li>Students will be graded individually on the assignments. They will be allowed to discuss with each other on the homework assignments, but they are required to submit individual write-ups and coding exercises.</li>
 </ul>
 
 <p><strong>Final Project (Group work but individually graded)</strong></p>
 
 <ul>
-<li>There will be a final project contributing to the remaining 50% of the total course-work assessment.</li>
+<li>There will be a final project contributing to the remaining 50% of the total course-work assessment.
+
+<ul>
+<li><code>1–3</code> people per group</li>
+<li>Project proposal: <code>5%</code>, update: <code>5%</code>, presentation: <code>10%</code>, report: <code>30%</code></li>
+</ul></li>
 <li>The project will be a group or individual work depending on the student’s preference. Students will be graded individually. The final project presentation will ensure the student’s understanding of the project</li>
 </ul>
 
@@ -1415,6 +1427,75 @@
       <div class="col py-2">
         <div class="card">
           <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Week 3: Neural Network Basics</h4>
+            <h4 class="card-title exp-company text-muted my-0"></h4>
+            <div class="text-muted exp-meta">
+              
+                <span>02:30 PM - 5:30 PM</span>
+                <span class="middot-divider"></span>
+              
+              
+              23 November 2019
+              
+              
+                <span class="middot-divider"></span>
+                <span>SPMS-COMP LAB 1, NTU, Singapore </span>
+              
+              
+            </div>
+            <div class="card-text"><p>[Lecture Slide]</p>
+
+<p><strong>Lecture Content</strong></p>
+
+<ul>
+<li><p>From Logistic Regression to Feed-forward NN</p>
+
+<ul>
+<li>Activation functions</li>
+</ul></li>
+
+<li><p>SGD with Backpropagation</p></li>
+
+<li><p>Adaptive SGD (adagrad, adam, RMSProp)</p></li>
+
+<li><p>Regularization (Weight Decay, Dropout, Batch normalization, Gradient clipping)</p></li>
+</ul>
+
+<p><strong>Practical exercise with Pytorch</strong></p>
+
+<ul>
+<li>Backpropagation</li>
+<li>Dropout</li>
+<li>Batch normalization</li>
+<li>Initialization</li>
+<li>Gradient clipping
+<br /></li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border exp-fill">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
             <h4 class="card-title exp-title text-muted mt-0 mb-1">Week 2: Machine Learning Basics</h4>
             <h4 class="card-title exp-company text-muted my-0"></h4>
             <div class="text-muted exp-meta">
@@ -1505,13 +1586,10 @@
 <li>Applications of deep learning to NLP</li>
 <li>Knowing the target group (background, field of study, programming experience)</li>
 <li>Expectation from the course
-<br />
-<br />
 <br /></li>
 </ul>
 
-<p><br>
-  <strong>Python &amp; PyTorch Basics</strong></p>
+<p><strong>Python &amp; PyTorch Basics</strong></p>
 
 <ul>
 <li><p>Programming in Python</p>
