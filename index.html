@@ -401,7 +401,7 @@
     ;">
     <div class="container" style="text-align: center;">
         <h1 class="hero-title" itemprop="headline">
-          MH6812: Deep Learning for Natural LanguageProcessing: From Theory to Practice
+          MH6812: Deep Neural Networks for Natural Language Processing: From Theory to Practice
         </h1>
 
         
@@ -604,8 +604,8 @@
       <p><strong>Weekly Workload</strong></p>
 
 <ul>
-<li>Every two-hour lecture will be accompanied by practice problems implemented in PyTorch.</li>
-<li>There will be a 30-min office hour per week to discuss assignments and project.</li>
+<li>Every two-hour lecture will be accompanied by practical problems implemented in PyTorch.</li>
+<li>There will be NO office hour.</li>
 <li>There will be <code>5%</code> marks for class participation.</li>
 </ul>
 
@@ -1014,396 +1014,7 @@
     
   </div>
   <div class="col-12 col-lg-12">
-    <!-- [[experience]]
-  title = "Week 2: Machine Learning Basics"
-  company = ""
-  company_url = ""
-  location = "LTE 5, NTU, Singapore "
-  date_start = "2019-01-01"
-  date_end = "2019-01-01"
-  description = """
-
-  **Lecture Content (Shafiq, Tasnim)**
-  
-  * What is Machine Learning?
-  * Supervised vs. unsupervised learning
-  * Linear Regression
-  * Logistic Regression
-  * Multi-class classification 
-  * Parameter estimation (MLE & MAP)
-  * Gradient-based optimization & SGD
- 
- **Practical exercise with Pytorch (Thomas)**    
-    - Sentiment classification
-
- """
- 
-
-[[experience]]
-  title = "Week 3: Neural Network Basics"
-  company = ""
-  company_url = ""
-  location = "LTE 5, NTU, Singapore "
-  date_start = "2019-01-01"
-  date_end = "2019-01-01"
-  description = """
- 
-  **Lecture Content (Shafiq, Han-Cheol)**
-  
-  * From Logistic Regression to Feed-forward NN
-  * Activation functions
-  * SGD with Backpropagation
-  * Adaptive SGD (adagrad, adam, RMSProp)
-
- **Practical exercise with Pytorch (Han-Cheol)**    
-      - Backpropagation
-
-  <br>
-  **[Supplementary] Practical Deep Learning (Han-Cheol, Tomas)**
-  
-  * Regularisation
-  * Dropout
-  * Layer normalization
-  * Batch normalization
-  * Initialization
-  * Residual connections
-  * Gradient clipping
-
-  """
-
-[[experience]]
-  title = "Week 4: Word Vectors"
-  company = ""
-  company_url = ""
-  location = "LTE 5, NTU, Singapore "
-  date_start = "2019-01-01"
-  date_end = "2019-01-01"
-  description = """
-  
-  **Lecture Content (Shafiq, Phi)**
-
-  * Word meaning
-  * Distributed representation of words
-  * Word2Vec models (Skip-gram, CBOW, Glove, FastText)
-  * Negative sampling
-  * Adaptive input
-  * Adaptive output
-  * Evaluating word vectors
-
-      - Intrinsic evaluation
-      - Extrinsic evaluation
-
-**Practical exercise with Pytorch (Han-Cheol)** 
-  
-  - Skip-gram training
-  - Visualization
-
-
-  """
-
-[[experience]]
-  title = "Week 5: Window-based Approach and Convolutional Nets"
-  company = ""
-  company_url = ""
-  location = "LTE 5, NTU, Singapore "
-  date_start = "2019-01-01"
-  date_end = "2019-01-01"
-  description = """
-
-  **Lecture Content (Shafiq, Han-Cheol, Maruf, Tasnim)**
-  
-  * Language models
-  * Neural language model
-  * Chunking and NER with window-based approach
-  * Pairwise training and max-margin loss
-  * CNNs for NLP
-  * **Assignment 1 out**
-
-  **Practical exercise with Pytorch (Maruf)** 
-
-  """
- [[experience]] 
-  title = "Week 6: Recurrent Neural Nets"
-  company = ""
-  company_url = ""
-  location = "LTE 5, NTU, Singapore "
-  date_start = "2019-01-01"
-  date_end = "2019-01-01"
-  description = """
-
- **Lecture Content (Shafiq, Maruf)**
- 
-  * Basic RNN structures
-  * Language modeling with RNNs
-  * Backpropagation through time
-  * Text generation with RNN LM
-  * Issues with Vanilla RNNs
-  * Exploding gradient
-  * Gated Recurrent Units (GRUs) and LSTMs
-  * Bidirectional RNNs
-  * Multi-layer RNNs
-  * Sequence labeling with RNNs
-  * Sequence classification with RNNs
-  
-  **Practical exercise with Pytorch (Maruf)** 
-  
-  - Opinion analysis
-  - Part-of-speech (POS) tagging
-  - Named Entity Recognition (NER)
-  - Sentiment classification
-  - Text generation  
-  
-  """
-
-[[experience]]
-  title = "Week 7: Recursive Neural Nets & Parsing"
-  company = ""
-  company_url = ""
-  location = "LTE 5, NTU, Singapore "
-  date_start = "2019-01-01"
-  date_end = "2019-01-01"
-  description = """
-  
-  **Lecture Content (Shafiq, Phi)**
-
-  * Compositionality in language & recursion
-  * Recursive vs. recurrent NN
-  * Parsing with tree-structured recursive NN
-  * Tree LSTMs
-  * Backpropagation through tree
-  * Other applications of recursive NN
-      
-      - Scene parsing
-      - Fine-grained sentiment analysis
-      - Semantic relationship identification
-  
-  * Neural dependency parsing
-      
-      - Transition-based neural parsing
-      - Graph-based neural parsing
-  * **Assignment 1 in**
-
-  **Practical exercise with Pytorch (Phi)**
-  
-  - Sentiment treebank
-  - Subject-Verb Agreement
-
-  """
-
-[[experience]]
-  title = "Week 8: Neural Nets for Discourse Analysis"
-  company = ""
-  company_url = ""
-  location = "LTE 5, NTU, Singapore "
-  date_start = "2019-01-01"
-  date_end = "2019-01-01"
-  description = """
-  
-  **Lecture Content (Shafiq, Tasnim, Lix Xiang)**
-
-  * Types of discourse
-  * Discourse analysis tasks
-      
-      - Topic analysis
-      - Coreference resolution
-      - Coherence modeling
-      - Discourse parsing
-      - Conversational structures
-
-  * Neural topic segmenter
-  * Neural coreference resolution
-  * Neural discourse parsing
-  * Neural coherence modeling
-  * Neural dialogue act modeling
-
-  **Practical exercise with Pytorch (Tasnim, Lin Xiang)**
-
-  - Discourse Parsing
-  - Coherence Model
-  - Topic segmenter (Segbot)
-
-  """
-
-
-[[experience]]
-  title = "Week 9: Machine translation and Seq2Seg Models"
-  company = ""
-  company_url = ""
-  location = "LTE 5, NTU, Singapore "
-  date_start = "2019-01-01"
-  date_end = "2019-01-01"
-  description = """
-
-  **Lecture Content (Shafiq, Jwala)**
-  
- * Machine translation
-
-    - Early days (1950s)
-    - Statistical machine translation or SMT (1990-2010)
-    - Alignment in SMT
-    - Decoding in SMT
- * Neural machine translation or NMT (2014 - )
- * Encoder-decoder model for NMT
- * Advantages and disadvantages of NMT
- * Greedy vs. beam-search decoding
- * Byte-pair encoding 
- * MT evaluation
- * **Assignment 2 out**
-
-  **Practical exercise with Pytorch (Jwala)**
-
-  - Neural machine translation
-
-  """
-
-[[experience]]
- title = "Week 10: Seq2Seg Models with Attentions"
- company = ""
- company_url = ""
- location = "LTE 5, NTU, Singapore "
- date_start = "2019-01-01"
- date_end = "2019-01-01"
- description = """
-
-  **Lecture Content (Shafiq, Thomas, Phi)**
-
- * Information bottleneck issue with vanilla Seq2Seq
- * Attention to the rescue
- * Details of attention mechanism
- * Attention variants
-  - Soft vs. hard attention
-  - Local vs. global attention
- 
- * Transformer Networks
- * Pointer nets
- * Applications of Seq2Seq models
-  - Translation
-  - Parsing
-  - Summarization
-  - image/video captioning
-
- **Practical exercise with Pytorch (Phi, Thomas, Lin Xiang)**
- 
- - Neural machine translation
- - Summarization
- - Parsing
- - Image captioning 
-
-  """
-
-
-[[experience]]
- title = "Week 11: Semisupervised Learning I: Transfer Learning "
- company = ""
- company_url = ""
- location = "LTE 5, NTU, Singapore "
- date_start = "2019-01-01"
- date_end = "2019-01-01"
- description = """
-
-  **Lecture Content (Shafiq, Tasnim)**
-
- * Why semi-supervsied?
- * Semisupervised learning dimensions 
- * Pre-training and fine-tuning methods 
-  - ELMo
-  - GPT
-  - BERT
-  - XLM
-  - XL-Net
- 
- * Evaluation benchmarks
-  - GLUE
-  - SQuAD
- 
- **Practical exercise with Pytorch (Tasnim)**
-
-  """
-
-[[experience]]
- title = "Week 12: Semisupervised Learning II: Adversarial Learning "
- company = ""
- company_url = ""
- location = "LTE 5, NTU, Singapore "
- date_start = "2019-01-01"
- date_end = "2019-01-01"
- description = """
-
- 
- **Lecture Content (Shafiq, Maruf)**
- 
- * Generative adversarial nets (GANs)
- * Domain adversarial nets (DANs)
- * Transfer learning with DANs
- * Training with adversarial examples
- * Consistency regularization
- * Cross-view consistency
- * Limits & Future of Deep NLP
-  - Multi-sentence processing
-  - Multi-task learning
-  - Multimodal learning
-  - Model interpretability
-
- * **Assignment 2 Due**
-
- **Practical exercise with Pytorch (Maruf)**
-
- - Unsupervised Translation
- - Cross-lingual NER
-
-  **[Supplementary reading] Variational Methods for Deep NLP**
-
- * Deep learning meets graphical models 
- * Variational autoencoders
- * Variational Generative adversarial nets (GANs)
- * Applications
-
-  """
-
-[[experience]]
- title = "Week 13: In-class Project presentation"
- company = ""
- company_url = ""
- location = "LTE 5, NTU, Singapore "
- date_start = "2019-01-01"
- date_end = "2019-01-01"
- description = """
-
- * Project presentation: 15 min/group
-  """
-
-
-
-[[experience]]
- title = "Futher Reading: Deep Reinforcement Learning for NLP"
- company = ""
- company_url = ""
- location = "LTE 5, NTU, Singapore "
- date_start = "2019-01-01"
- date_end = "2019-01-01"
- description = """
-
- * What is RL?
- * Key concepts: Rewards, Policy, Value Function
- * What is Deep RL?
- * Policy-based Deep RL
     
-     - Deep Policy Network
-    - Policy Gradient
- * Deep Q-Learning
- * Applications of Deep RL in NLP
-    
-     - Abstractive summarization 
-  - Dialogue generation
-  - Question answering
-  - Multimodal (image and video captioning)
-  - Machine translation
- * Conclusions
-
- <br>
-  <br>
-  """ -->
-
 
     
     
@@ -1449,7 +1060,7 @@
 <ul>
 <li>Word meaning</li>
 <li>Distributed representation of words</li>
-<li>Word2Vec models (Skip-gram, CBOW, Glove, FastText)</li>
+<li>Word2Vec models (Skip-gram, CBOW)</li>
 <li>Negative sampling</li>
 <li>Adaptive input</li>
 <li>Adaptive output</li>
@@ -1476,6 +1087,7 @@
 <li><a href="https://arxiv.org/abs/1301.3781" target="_blank">Efficient Estimation of Word Representations in Vector Space</a> - Original word2vec paper</li>
 <li><a href="https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf" target="_blank">Distributed Representations of Words and Phrases and their Compositionality</a> - negative sampling paper</li>
 <li><a href="https://nlp.stanford.edu/pubs/glove.pdf" target="_blank">GloVe: Global Vectors for Word Representation</a>
+
 <br /></li>
 </ul>
 </div>
@@ -1537,6 +1149,8 @@
 <li><p>Regularization (Weight Decay, Dropout, Batch normalization, Gradient clipping)</p></li>
 </ul>
 
+<p><strong>Assignment <code>1</code> out</strong></p>
+
 <p><strong>Practical exercise with Pytorch</strong> <a href="https://colab.research.google.com/drive/1IAonxZnZjJb0_xUVWHt5atIxaI5GTJQ2" target="_blank">Numpy notebook</a> <a href="https://colab.research.google.com/drive/1YzZrMAmJ3hjvJfNIdGxae9kxGABG6yaT" target="_blank">Pytorch notebook</a></p>
 
 <ul>
@@ -1547,6 +1161,59 @@
 <li>Gradient clipping
 <br /></li>
 </ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border exp-fill">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Week 5: Window-based Approach and Convolutional Nets</h4>
+            <h4 class="card-title exp-company text-muted my-0"></h4>
+            <div class="text-muted exp-meta">
+              
+                <span>02:30 PM - 5:30 PM</span>
+                <span class="middot-divider"></span>
+              
+              
+              23 November 2019
+              
+              
+                <span class="middot-divider"></span>
+                <span>SPMS-COMP LAB 1, NTU, Singapore </span>
+              
+              
+            </div>
+            <div class="card-text"><p><strong>Lecture Content</strong></p>
+
+<ul>
+<li>More on Word Vectors (Glove, FastText)</li>
+<li>Language models</li>
+<li>Neural language model</li>
+<li>Chunking and NER with window-based approach</li>
+<li>Pairwise training and max-margin loss</li>
+<li>CNNs for NLP</li>
+</ul>
+
+<p><strong>Practical exercise with Pytorch</strong></p>
 </div>
           </div>
         </div>
