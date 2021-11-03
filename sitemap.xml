@@ -184,44 +184,27 @@
   </url>
   
   <url>
-    <loc>https://ntunlpsg.github.io/deep-nlp/authors/1.tasnim/</loc>
+    <loc>https://ntunlpsg.github.io/deep-nlp/courses/authors/1.tasnim/</loc>
   </url>
   
   <url>
-    <loc>https://ntunlpsg.github.io/deep-nlp/authors/2.tung/</loc>
+    <loc>https://ntunlpsg.github.io/deep-nlp/courses/authors/2.sbmaruf/</loc>
   </url>
   
   <url>
-    <loc>https://ntunlpsg.github.io/deep-nlp/authors/3.jwala/</loc>
+    <loc>https://ntunlpsg.github.io/deep-nlp/courses/authors/4.phi/</loc>
   </url>
   
   <url>
-    <loc>https://ntunlpsg.github.io/deep-nlp/authors/4.-sbmaruf/</loc>
+    <loc>https://ntunlpsg.github.io/deep-nlp/courses/authors/5.-hancheol-moon/</loc>
   </url>
   
   <url>
-    <loc>https://ntunlpsg.github.io/deep-nlp/authors/5.phi/</loc>
-  </url>
-  
-  <url>
-    <loc>https://ntunlpsg.github.io/deep-nlp/authors/7.-hancheol-moon/</loc>
-  </url>
-  
-  <url>
-    <loc>https://ntunlpsg.github.io/deep-nlp/authors/8.-lin/</loc>
-  </url>
-  
-  <url>
-    <loc>https://ntunlpsg.github.io/deep-nlp/authors/joty/</loc>
+    <loc>https://ntunlpsg.github.io/deep-nlp/courses/authors/joty/</loc>
   </url>
   
   <url>
     <loc>https://ntunlpsg.github.io/deep-nlp/authors/1.han/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ntunlpsg.github.io/deep-nlp/authors/1.lin/</loc>
     <priority>0</priority>
   </url>
   
@@ -236,7 +219,12 @@
   </url>
   
   <url>
-    <loc>https://ntunlpsg.github.io/deep-nlp/authors/</loc>
+    <loc>https://ntunlpsg.github.io/deep-nlp/authors/1.tasnim/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ntunlpsg.github.io/deep-nlp/courses/authors/</loc>
     <priority>0</priority>
   </url>
   
@@ -247,6 +235,11 @@
   
   <url>
     <loc>https://ntunlpsg.github.io/deep-nlp/courses/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ntunlpsg.github.io/deep-nlp/authors/joty/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>
